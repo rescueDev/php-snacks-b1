@@ -22,7 +22,11 @@
 
     ?>
 
+    </div>
 
+</head>
+
+<body>
 
     <?php
     foreach ($hotels as $key => $l1) { ?>
@@ -30,22 +34,12 @@
             <?php
             foreach ($l1 as $key2 => $l2) { ?>
 
-
-
-
                 <h2><?php echo $key2 . ' => ' . $l2 ?></h2>
 
-
-
-        <?php     }
-        }
-
-        ?>
+            <?php   } ?>
         </div>
-
-</head>
-
-<body>
+    <?php }
+    ?>
 
 </body>
 
