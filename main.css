@@ -1,0 +1,10 @@
+body {
+  background-color: purple;
+  font-family: sans-serif;
+}
+
+.container {
+  border: 1px solid white;
+
+  color: white;
+}
